@@ -1,0 +1,23 @@
+html,
+body {
+    height: 100%;
+    font-family: 'comfort', sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    flex: 1 0 auto;
+}
+
+.footer {
+    flex-shrink: 0;
+}
+
+.main {
+    background: rgb(34, 193, 195);
+    background: linear-gradient(180deg, rgba(34, 193, 195, 1) 0%, rgba(60, 199, 200, 0.44861694677871145) 16%, rgba(237, 237, 237, 1) 100%);
+}
